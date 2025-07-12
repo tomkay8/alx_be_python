@@ -1,9 +1,9 @@
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
-operator_type = input("Choose the operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /): ")
 
-match operator_type:
+match operation:
     case "+":
         print("The result is ", num1 + num2)
     case "-":
@@ -15,3 +15,5 @@ match operator_type:
             print("Cannot divide by zero")
         else:
             print("The result is ", num1/num2)
+    case _:
+        print("Invalid operation")
