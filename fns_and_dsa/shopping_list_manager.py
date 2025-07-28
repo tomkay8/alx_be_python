@@ -11,11 +11,11 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == '1':
-        item = input('Please select what you want: ')
+        item = input("Enter the item to add: ")
         shopping_list.append(item)
 
     elif choice == '2':
-        item = input('Enter the item to remove: ')
+        item = input("Enter the item to remove: ")
         if item in shopping_list:
             shopping_list.remove(item)
             print(f"{item} removed from the list.")
