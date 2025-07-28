@@ -1,7 +1,8 @@
 shopping_list = []
 
+def display_menu():
 while True:
-    print("\nShopping List Manager")
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
